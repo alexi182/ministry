@@ -1,0 +1,24 @@
+.content-messages {
+   a {
+      display: inline-block;
+      margin-top: 40px;
+      width: 111px;
+      padding: 4px 0;
+      border: 1px solid #39404c;
+      @include transition(300);
+      color: #39404c;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      margin-right: 7px;
+      text-transform: uppercase;
+      &:hover{
+         background: #ffffff;
+         color: #000000;
+         border: 1px solid #ffffff;
+      }
+      &:last-of-type {
+         margin-right: 0px;
+      }
+   }
+}

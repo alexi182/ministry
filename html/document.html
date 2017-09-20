@@ -1,0 +1,468 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+   <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title></title>
+<meta name="description" content="">
+ <!--<meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+</head>
+<body>
+
+<!--[if lte IE 9]>
+<style>
+   .browserupgrade {text-align: center;border: 2px solid #b4b472;font-size: 20px;padding: 20px;position: fixed;background: #333;color: #c1bea2;width: 400px;left: 50%;margin-left: -200px;z-index: 999999;}
+   .browserupgrade a {color: #fff;}
+   .browserupgrade a:hover {color: #e0c1ff;text-decoration: none;}
+</style>
+<p class="browserupgrade">Вы используете <strong>устаревший</strong> браузер. Пожалуйста<br/> <a
+        href="http://browsehappy.com/">обновите ваш браузер или установите альтернативный</a><br/> для корректного
+   отображения содержимого сайта.</p>
+<![endif]-->
+
+
+<div class="stick-footer sidebar_opened">
+   <div class="layout-links layout-links_profile">
+   <div class="layout-links__item sidebar-profile layout-links__item_closed-profile">
+      <div class="layout-link profile-link">
+         <img src="/img/user2.svg" alt="">
+      </div>
+
+      <div class="layout-content-profile">
+         <img src="/img/avatar.png" alt="">
+
+         <div class="layout-content-user">
+            <div class="layout-content-user__name">
+               Синюгина Татьяна Юрьевна
+            </div>
+            <div class="layout-content-user__actions">
+               <a href="#" class="layout-content-user__profile">Профиль</a>
+               <a href="#" class="layout-content-user__exit">Выйти</a>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="layout-links layout-links_search">
+   <div class="layout-links__item sidebar-search layout-links__item_closed-search">
+      <div class="layout-link search-link">
+         <img src="/img/magnifier.svg" alt="">
+      </div>
+      <div class="layout-content-search">
+         <div class="layout-content-search__top">
+            <input type="text" placeholder="Поиск документов: введите название документа">
+            <a href="#" class="advance-search">Расширенный поиск</a>
+            <a href="#" class="close-search"></a>
+         </div>
+
+         <div class="layout-content-search__block block-hide">
+            <div class="layout-content-search__block-column">
+               <div class="layout-content-search__block-row">
+                  <label class="layout-content-search__label">
+                     Вид документа
+                  </label>
+                  <div class="search-box">
+                     <select class="chosen-select">
+                        <option>Все</option>
+                        <option>Не все</option>
+                     </select>
+                  </div>
+               </div>
+
+               <div class="layout-content-search__block-row">
+                  <label class="layout-content-search__label">
+                     Заголовок
+                  </label>
+                  <div class="search-box">
+                     <input type="text">
+                  </div>
+               </div>
+
+               <div class="layout-content-search__block-row">
+                  <div class="layout-content-search__block-row-item">
+                     <label class="layout-content-search__label">
+                        Дата создания
+                     </label>
+                     <div class="search-box">
+                        <input type="text" class="datepicker">
+                     </div>
+                  </div>
+
+                  <div class="layout-content-search__block-row-item">
+                     <label class="layout-content-search__label">
+                        Дата изменения
+                     </label>
+                     <div class="search-box">
+                        <input type="text" class="datepicker">
+                     </div>
+                  </div>
+
+               </div>
+
+            </div>
+
+            <div class="layout-content-search__block-column">
+               <div class="layout-content-search__block-row">
+                  <label class="layout-content-search__label">
+                     Категория
+                  </label>
+                  <div class="search-box">
+                     <select class="chosen-select">
+                        <option>Все</option>
+                        <option>Не все</option>
+                     </select>
+                  </div>
+               </div>
+
+               <div class="layout-content-search__block-row">
+                  <label class="layout-content-search__label">
+                     Номер
+                  </label>
+                  <div class="search-box">
+                     <input type="text">
+                  </div>
+               </div>
+
+               <div class="layout-content-search__block-row">
+                  <label class="layout-content-search__label">
+                     Статус
+                  </label>
+                  <div class="search-box">
+                     <select class="chosen-select">
+                        <option>В работе</option>
+                        <option>Не в работе</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+
+            <button class="search-button" type="submit">Поиск</button>
+
+         </div>
+
+      </div>
+   </div>
+</div>
+
+   <aside class="sidebar">
+   <a href="#" class="close__icon icon-closed close_js">
+      <span class="icon-line"></span>
+      <span class="icon-line"></span>
+      <span class="icon-line"></span>
+   </a>
+   <ul>
+      <li>
+         <a href="messages.html">
+            <span>УВЕДОМЛЕНИЯ (+5)</span>
+            <img src="/img/svg/notice2.svg" alt="icon">
+         </a>
+      </li>
+      <li>
+         <a href="private-messages.html">
+            <span>ЛИЧНЫЕ СООБЩЕНИЯ (+1)</span>
+            <img src="/img/svg/messages2.svg" alt="icon">
+         </a>
+      </li>
+      <li>
+         <a href="documents.html">
+            <span>ДОКУМЕНТЫ (+3)</span>
+            <img src="/img/svg/doc2.svg" alt="icon">
+         </a>
+      </li>
+      <li>
+         <a href="events.html">
+            <span>СОБЫТИЯ (+5)</span>
+            <img src="/img/svg/events2.svg" alt="icon">
+         </a>
+      </li>
+      <li>
+         <a href="users.html">
+            <span>ПОЛЬЗОВАТЕЛИ (+2)</span>
+            <img src="/img/svg/user2.svg" alt="icon">
+         </a>
+      </li>
+      <li>
+         <a href="settings.html">
+            <span>ПРОФИЛЬ И НАСТРОЙКИ</span>
+            <img src="/img/svg/settings2.svg" alt="icon">
+         </a>
+      </li>
+   </ul>
+</aside>
+
+   <div class="index-wrapper index-sidebar">
+      <main class="content">
+
+         <header class="header">
+   <a href="main.html" class="logo">
+      <img src="/img/logo.png" alt="logo">
+      <h1 class="main-title">
+         ПЛАТФОРМА ДЛЯ ПОДГОТОВКИ И СОГЛАСОВАНИЯ НОРМАТИВНЫХ ДОКУМЕНТОВ МИНОБРНАУКИ РОССИИ
+      </h1>
+   </a>
+</header>
+
+         <div class="content-container">
+            <div class="content-container__head">
+               <img src="/img/svg/doc.svg" alt="notice" class="content-container__icon">
+               <h2 class="content-container__title">Документы</h2>
+            </div>
+            <div class="content-block">
+               <h3 class="content-container__subtitle">Приказ о мониторинге дополнительных показателей дошкольного образования
+                  <span> № 1-11896_v4</span>
+               </h3>
+               <div class="content-container__bars">
+                  <a href="#" class=""></a>
+               </div>
+            </div>
+
+            <div class="content-block calendar">
+  <!-- <h3 class="content-container__subtitle">Календарь событий</h3>-->
+   <div class="dateblock"></div>
+</div>
+
+         </div>
+      </main>
+   </div>
+
+   <div class="page-content page-content_closed">
+
+      <div class="page-content-row user-links">
+         <a href="#" class="file-list">Список файлов
+         </a>
+         <a href="#" class="statistic">Сводная статистика</a>
+         <a href="#" class="decret">информация по документу</a>
+      </div>
+
+      <div class="page-content__inner">
+
+         <div class="overlay"></div>
+
+         <div class="window window-1">
+            <div title="Закрыть" class="button-close button-close_js"></div>
+
+            <div class="window__row">
+               <div class="window__cell">
+                  <img src="/img/pdf.png" alt="pdf" />
+                  <a href="#" class="window__link">
+                     Проект приказа (PDF, 12Мб.)
+                  </a>
+               </div>
+
+               <div class="window__cell">
+                  <img src="/img/pdf.png" alt="pdf" />
+                  <a href="#" class="window__link">
+                     Приложение 1 - Список показателей мониторинга (PDF, 5Мб)
+                  </a>
+               </div>
+               <div class="window__cell">
+                  <img src="/img/word.png" alt="word" />
+                  <a href="#" class="window__link">
+                     Приложение 2 - Шаблон отчетных форм (DOC, 1Мб)
+                  </a>
+               </div>
+            </div>
+
+            <div class="window__row">
+               <div class="window__cell">
+                  <img src="/img/word.png" alt="word" />
+                  <a href="#" class="window__link">
+                     Приложение 2 v2 - Шаблон отчетных форм с изменениями (DOC, 1Мб)
+                  </a>
+               </div>
+            </div>
+         </div>
+
+         <div class="window window-2">
+            <div title="Закрыть" class="button-close button-close_js"></div>
+            <div class="window__row">
+               <div class="window__col">
+                  <img src="/img/diagram.png" alt="">
+               </div>
+
+               <div class="window__col">
+                  <div class="window__cell">
+                     <li>
+                        Положительные согласования (4 из 7)
+                     </li>
+                  </div>
+                  <div class="window__cell">
+                     Отрицательные согласования (2 из 7)
+                  </div>
+                  <div class="window__cell">
+                     Не получено согласования
+                  </div>
+               </div>
+
+               <div class="window__col">
+                  <div class="window__cell">
+                     Число комментариев: 48
+                  </div>
+                  <div class="window__cell">
+                     Число подписчиков: 85
+                  </div>
+                  <div class="window__cell">
+                     Отправлено общих рассылок: 2
+                  </div>
+                  <div class="window__cell">
+                     Событий, связанных с документом: 1
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <p class="content-main__header">Согласования и комментарии</p>
+         <form action="/" class="form-forum">
+            <div class="form-forum-send">
+               <img src="/img/avatar.png" alt="avatar" />
+               <textarea name="send" class="form-forum__area"></textarea>
+            </div>
+            <button type="submit" class="form-forum__send-btn">Отправить</button>
+         </form>
+
+         <div class="form-notice">Всего комментариев и согласований: <span>48</span> (вывести только <span>согласования</span>)
+         </div>
+
+         <div class="main-message">
+            <div class="message-info">
+               <img src="/img/avatar.png" alt="avatar" />
+               <div class="message-info__author">
+                  Синюгина Т.Ю.
+               </div>
+               <div class="message-info__date">
+                  15.07.2017 12:10
+               </div>
+            </div>
+            <div class="main-message__text">
+               Уважаемые коллеги, просьба согласовать или дать комментарии по его доработке, в частности по составу и количества показателей мониторинга
+            </div>
+         </div>
+
+         <div class="forum pd5">
+            <div class="forum-block">
+               <div class="message-info">
+                  <img src="/img/avatar2.png" alt="avatar" />
+                  <div class="message-info__author">
+                     Захарова М.Б.
+                  </div>
+                  <div class="message-info__date">
+                     15.07.2017 15:15
+                  </div>
+
+                  <div class="message-disagree">Не согласовано</div>
+
+                  <div class="message-like">
+                     <img src="/img/svg/like.svg" alt="like" />
+                     <span>15</span>
+                  </div>
+               </div>
+               <div class="message__text">
+                  <div class="message__text-inner">
+                     Здравствуйте! Формулировки показателей 1-22 требуют доработки. Также считаю необходимым исключить показатели 23-30 т.к. они уже собираются в рамках мониторинга на платформе do.edu.ru
+                  </div>
+                  <div class="message__text-userbar">
+                     <a href="#">Ответить</a>
+                     <img src="/img/svg/like.svg" alt="like" />
+                  </div>
+
+                  <form action="/" class="form-forum">
+                     <div class="form-forum-send">
+                        <img src="/img/avatar.png" alt="avatar">
+                        <textarea name="send" class="form-forum__area"></textarea>
+                     </div>
+                     <button type="submit" class="form-forum__send-btn">Отправить</button>
+                     <span class="message-answer">Ответ Захаровой М.Б.</span>
+                  </form>
+               </div>
+            </div>
+
+            <div class="forum-block">
+               <div class="message-info">
+                  <img src="/img/avatar-empty.png" alt="avatar" />
+                  <div class="message-info__author">
+                     Гончарова Н.Г.
+                  </div>
+                  <div class="message-info__date">
+                     15.07.2017 15:17
+                  </div>
+
+                  <!--<div class="message-disagree">Не согласовано</div>-->
+                  <span class="message-answer">Ответ Захаровой М.Б.</span>
+                  <div class="message-like">
+                     <img src="/img/svg/like.svg" alt="like" />
+                     <span>11</span>
+                  </div>
+               </div>
+               <div class="message__text">
+                  <div class="message__text-inner">
+                     Уважаемые коллеги, считаю что в версии 4 формулировки показателей корректны.
+                  </div>
+                  <div class="message__text-userbar">
+                     <a href="#">Ответить</a>
+                     <img src="/img/svg/like.svg" alt="like" />
+                  </div>
+
+                  <!--      <form action="/" class="form-forum">
+                           <div class="form-forum-send">
+                              <img src="/img/avatar.png" alt="avatar">
+                              <textarea name="send" class="form-forum__area"></textarea>
+                           </div>
+                           <button type="submit" class="form-forum__send-btn">Отправить</button>
+                           <span class="message-answer">Ответ Захаровой М.Б.</span>
+                        </form>-->
+               </div>
+            </div>
+
+            <div class="forum-block">
+               <div class="message-info">
+                  <img src="/img/avatar-empty.png" alt="avatar" />
+                  <div class="message-info__author">
+                     Гончарова Н.Г.
+                  </div>
+                  <div class="message-info__date">
+                     15.07.2017 15:14
+                  </div>
+
+                  <!--<div class="message-disagree">Не согласовано</div>-->
+                  <span class="message-answer">Ответ Захаровой М.Б.</span>
+                  <div class="message-like">
+                     <img src="/img/svg/like.svg" alt="like" />
+                     <span>11</span>
+                  </div>
+               </div>
+               <div class="message__text">
+                  <div class="message__text-inner">
+                     Здравствуйте! Считаю, что исправленный вариант (версия 4) готов к утверждению.
+                  </div>
+                  <div class="message__text-userbar">
+                     <a href="#">Ответить</a>
+                     <img src="/img/svg/like.svg" alt="like" />
+                  </div>
+
+                  <!--      <form action="/" class="form-forum">
+                           <div class="form-forum-send">
+                              <img src="/img/avatar.png" alt="avatar">
+                              <textarea name="send" class="form-forum__area"></textarea>
+                           </div>
+                           <button type="submit" class="form-forum__send-btn">Отправить</button>
+                           <span class="message-answer">Ответ Захаровой М.Б.</span>
+                        </form>-->
+               </div>
+            </div>
+
+         </div>
+
+      </div>
+
+
+   </div>
+</div>
+<script src="/assets/js/bundle.js"></script>
+
+</body>
+</html>
